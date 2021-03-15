@@ -59,3 +59,7 @@ const V4 = x => {
 }
 
 const V5 = x => y => z(x)(y);
+
+const arr = [1,2,3,4,5];
+
+console.log(arr.map(function (n) { return n + 1 }));
